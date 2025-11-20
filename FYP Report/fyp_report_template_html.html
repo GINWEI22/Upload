@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYP Report Template</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+            line-height: 1.8;
+            background-color: #ffffff;
+        }
+        .cover-page {
+            text-align: center;
+            padding: 100px 0;
+            border-bottom: 3px solid #000;
+        }
+        .cover-page h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        h1 {
+            color: #000;
+            font-size: 20px;
+            margin-top: 40px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            font-size: 18px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #555;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .toc {
+            margin: 30px 0;
+        }
+        .toc-item {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+        .note {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .important {
+            background-color: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .chapter-header {
+            background-color: #e9ecef;
+            padding: 20px;
+            margin: 40px 0 20px 0;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 40px;
+        }
+        .declaration {
+            margin: 40px 0;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+        mark {
+            background-color: #ffeb3b;
+            padding: 2px 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-page">
+        <h1>Individual Project Title</h1>
+        <p style="margin: 40px 0;">By</p>
+        <p style="font-weight: bold; font-size: 18px;">Student Name</p>
+        <div style="margin: 60px 0;">
+            <p style="font-weight: bold;">FACULTY OF COMPUTING AND</p>
+            <p style="font-weight: bold;">INFORMATION TECHNOLOGY</p>
+            <p style="margin-top: 30px;">TUNKU ABDUL RAHMAN UNIVERSITY OF MANAGEMENT AND TECHNOLOGY</p>
+            <p>KUALA LUMPUR</p>
+            <p style="margin-top: 30px;">ACADEMIC YEAR</p>
+            <p>2025/26</p>
+        </div>
+    </div>
+
+    <div style="page-break-after: always;"></div>
+
+    <div class="declaration">
+        <h2>Declaration</h2>
+        <p>The project submitted herewith is a result of my own efforts in totality and in every aspect of the project works. All information that has been obtained from other sources had been fully acknowledged. I understand that any plagiarism, cheating or collusion or any sorts constitutes a breach of TAR University rules and regulations and would be subjected to disciplinary actions.</p>
+        <p style="margin-top: 40px;">_________________________</p>
+        <p>Student Name</p>
+        <p>ID: [Student ID]</p>
+    </div>
+
+    <h1>Abstract</h1>
+    <p>This is a <strong>one-page</strong> summary of the project (without any subheading) of usually not more than <strong>300 words</strong>. It is often used to help the reader to quickly ascertain the documentation's purpose.</p>
+    
+    <div class="note">
+        <p>The contents that you may include in an abstract are as follows:</p>
+        <ul>
+            <li><strong>Purpose:</strong> Describes the main purpose of carrying the project</li>
+            <li><strong>Scope:</strong> Covers areas or size of the project in terms of function and features</li>
+            <li><strong>Methodology:</strong> Describes the methodology, tools, techniques and models used</li>
+            <li><strong>Testing criteria used:</strong> Describes the various assessment areas</li>
+            <li><strong>Results and Conclusion:</strong> Briefs the outcome, strengths and weakness</li>
+        </ul>
+        <p><strong>Note:</strong> Your abstract SHOULD NOT have bullet points or headings. Refer to abstracts of research papers for examples.</p>
+    </div>
+
+    <h1>Acknowledgement</h1>
+    <p>This contains acknowledgement to those who have contributed directly or indirectly to the completion of the project. Usually the people to be acknowledged include the project supervisor(s), moderators, family, and those who have given assistance and supports to ensure the success of the project.</p>
+
+    <h1>Table of Contents</h1>
+    <div class="toc">
+        <div class="toc-item"><strong>Declaration</strong> ...................... ii</div>
+        <div class="toc-item"><strong>Abstract</strong> ...................... ii</div>
+        <div class="toc-item"><strong>Acknowledgement</strong> ...................... ii</div>
+        <div class="toc-item"><strong>Table of Contents</strong> ...................... ii</div>
+        <div class="toc-item"><strong>1 Introduction</strong> ...................... 2</div>
+        <div class="toc-item" style="padding-left: 40px;">1.1 Sub-section 1 Heading ...................... 2</div>
+        <div class="toc-item" style="padding-left: 40px;">1.2 Sub-section 2 Heading ...................... 2</div>
+        <div class="toc-item"><strong>2 Literature Review</strong> ...................... 2</div>
+        <div class="toc-item"><strong>3 Methodology and Requirements Analysis</strong> ...................... 2</div>
+        <div class="toc-item"><strong>4 System Design</strong> ...................... 2</div>
+        <div class="toc-item"><strong>5 Implementation and Testing</strong> ...................... 2</div>
+        <div class="toc-item"><strong>6 System Deployment</strong> ...................... 2</div>
+        <div class="toc-item"><strong>7 Discussions and Conclusion</strong> ...................... 2</div>
+        <div class="toc-item"><strong>References</strong> ...................... 2</div>
+        <div class="toc-item"><strong>Appendices</strong> ...................... 2</div>
+    </div>
+
+    <div class="chapter-header">Chapter 1<br>Introduction</div>
+
+    <h1>1. Introduction</h1>
+    <p>A short introduction that describes what will be included in this chapter.</p>
+    
+    <div class="important">
+        <p><mark>IMPORTANT NOTE TO STUDENTS: In this chapter, you must define the scope of the project clearly - state what functions are included, and what are not included.</mark></p>
+    </div>
+
+    <h2>1.1 Sub-section 1 Heading</h2>
+    <p>Sub-sections should be used to divide the chapter into logical parts.</p>
+
+    <h3>1.1.1 Sub-subsection Heading</h3>
+    <p>Sub-section numbering should be limited to a maximum of 3 levels (e.g. 1.3.1) in order to avoid confusion.</p>
+
+    <h2>1.2 Chapter Summary and Evaluation</h2>
+    <p><em>At the end of each chapter, evaluate the contents stated or discussed in the relevant sub-sections.</em></p>
+
+    <div class="note">
+        <h3>REMINDER ABOUT FIGURES AND TABLES</h3>
+        <p>Important figures and tables are to be integrated into and/or explicitly referred to in the various appropriate sections. All tables and figures must be labeled properly:</p>
+        <ul>
+            <li>Use legal numbering style (e.g., Figure 1.3 for the third figure in Chapter 1)</li>
+            <li>Include appropriate titles and captions</li>
+            <li>Place table captions on top, centralized</li>
+            <li>Place figure captions below, centralized</li>
+        </ul>
+        
+        <p style="text-align: center; margin: 20px 0;"><strong>Table 1.1: Example of Table</strong></p>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Series 1</th>
+                    <th>Series 2</th>
+                    <th>Series 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Category 1</td>
+                    <td>4.3</td>
+                    <td>2.4</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Category 2</td>
+                    <td>2.5</td>
+                    <td>4.4</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="chapter-header">Chapter 2<br>Literature Review</div>
+
+    <h1>2. Literature Review</h1>
+    <p>A short introduction that describes what will be included in this chapter.</p>
+    
+    <div class="important">
+        <p><mark>IMPORTANT NOTE TO STUDENTS: In this chapter, you need to include the necessary references that you have used; please place proper citations. Citation needs to follow APA Referencing.</mark></p>
+    </div>
+
+    <h2>2.1 Sub-section Heading</h2>
+    <p>Sub-sections should be used to divide the chapter into logical parts.</p>
+
+    <h2>2.2 Chapter Summary and Evaluation</h2>
+    <p><em>At the end of each chapter, evaluate the contents stated or discussed in the relevant sub-sections.</em></p>
+
+    <div class="chapter-header">Chapter 3<br>Methodology and Requirements Analysis</div>
+
+    <h1>3. Methodology and Requirements Analysis</h1>
+    <p>A short introduction that describes what will be included in this chapter.</p>
+    
+    <div class="important">
+        <p><mark>IMPORTANT NOTE TO STUDENTS: In this chapter, all requirements must be clearly spelt out, either in text or illustrations (diagrams / models).</mark></p>
+    </div>
+
+    <div class="chapter-header">Chapter 4<br>System Design</div>
+
+    <h1>4. System Design</h1>
+    <p>A short introduction that describes what will be included in this chapter.</p>
+    
+    <div class="important">
+        <p><mark>IMPORTANT NOTES TO STUDENTS:</mark></p>
+        <ul>
+            <li><mark>In this chapter, the design of the system must be illustrated/updated according to what have been actually implemented.</mark></li>
+            <li><mark>For communication protocol and architecture: list the protocol used; illustrate the architecture</mark></li>
+            <li><mark>MQTT Command List and Description (if applicable)</mark></li>
+            <li><mark>Algorithms: Explain the algorithms used in the program</mark></li>
+        </ul>
+    </div>
+
+    <div class="chapter-header">Chapter 5<br>Implementation and Testing</div>
+
+    <h1>5. Implementation and Testing</h1>
+    <p>A short introduction that describes what will be included in this chapter.</p>
+    
+    <div class="important">
+        <p><mark>IMPORTANT NOTE TO STUDENTS: Include details about:</mark></p>
+        <ul>
+            <li><mark><strong>Implementation:</strong> A detailed description of how you actually carried out the implementation (e.g., coding, etc.)</mark></li>
+            <li><mark>Include code snippets and descriptions</mark></li>
+            <li><mark>Include descriptions of important settings</mark></li>
+            <li><mark><strong>Testing:</strong> All test cases that have been carried out must be provided - To tabulate the test cases in tables</mark></li>
+        </ul>
+    </div>
+
+    <div class="chapter-header">Chapter 6 (if applicable)<br>System Deployment</div>
+
+    <h1>6. System Deployment</h1>
+    <p>This chapter would be applicable for students who have embarked on a real-life industrial project.</p>
+
+    <h2>6.1 System Backup and Risk Management</h2>
+    <p>Describe the procedures to backup the existing system for changeover purpose. Discuss potential risks and solutions.</p>
+
+    <h2>6.2 On-site Setup</h2>
+    <p>Describe the preparations and procedures to setup the new system on client's site.</p>
+
+    <h2>6.3 Training Procedure</h2>
+    <p>Describe the training procedures, contents, schedule, etc.</p>
+
+    <h2>6.4 Follow-up</h2>
+    <p>Describe the plan or procedures to follow up with the client to verify system reliability.</p>
+
+    <div class="chapter-header">Chapter 7<br>Discussions and Conclusion</div>
+
+    <h1>7. Discussions and Conclusion</h1>
+    
+    <div class="important">
+        <p><mark>IMPORTANT NOTE TO STUDENTS: In this chapter, for problems related to code, hardware, internet connection, etc (where applicable):</mark></p>
+        <ul>
+            <li><mark>List the technical problems faced and state how they were resolved</mark></li>
+            <li><mark>List the unsolved technical problems for future enhancement</mark></li>
+            <li><mark>List the achieved objectives/modules</mark></li>
+            <li><mark>List the incomplete parts for future enhancement</mark></li>
+        </ul>
+    </div>
+
+    <h2>7.1 Summary</h2>
+    <p>Summarize the project including the problem and proposed solutions, justification of the choice of tools, techniques and methodologies.</p>
+
+    <h2>7.2 Achievements</h2>
+    <p>Evaluate the project's achievement against project objectives, completion, strengths and weaknesses.</p>
+
+    <h2>7.3 Contributions</h2>
+    <p>Discuss the creativity, innovativeness, contribution of the proposed system. Explain marketability.</p>
+
+    <h2>7.4 Limitations and Future Improvements</h2>
+    <p>Identify limitations and provide suggestions for improvement or further development.</p>
+
+    <h2>7.5 Issues and Solutions</h2>
+    <p>Describe problems faced during development and solutions. Include valuable experiences and lessons learnt.</p>
+
+    <h1>References</h1>
+    <p>The list of references should contain all items explicitly referred to in the report. References should be cited using Author-Year system (APA format).</p>
+    <p>References should be arranged alphabetically and then chronologically if necessary. More than one reference from the same author(s) in the same year must be identified by letters "a", "b", "c", etc.</p>
+
+    <h1>Appendices</h1>
+    <p>Appendices should only include supportive materials directly referred to in the writing and should be kept to a minimum.</p>
+    
+    <div class="note">
+        <p>Examples of items included in Appendices:</p>
+        <ul>
+            <li>Company's report and documentation</li>
+            <li>Project meeting documentation</li>
+            <li>Questionnaires and results</li>
+            <li>Analysis/design diagrams</li>
+        </ul>
+    </div>
+
+    <div class="important">
+        <p><mark>IMPORTANT NOTE TO STUDENTS</mark></p>
+        <h3><mark>APPENDIX n - User Guide</mark></h3>
+        <ul>
+            <li><mark>List the username and password of multiple roles (if applicable)</mark></li>
+            <li><mark>Provide clear screen shots of each page, explain the functions of each button</mark></li>
+        </ul>
+        
+        <h3><mark>APPENDIX n+1 - Developer Guide</mark></h3>
+        <p><mark>*To be included for Smart Campus Projects and Real-Life Projects</mark></p>
+        <ul>
+            <li><mark>List necessary software, installer, API, library that must be installed</mark></li>
+            <li><mark>List authentication details</mark></li>
+        </ul>
+    </div>
+</body>
+</html>
